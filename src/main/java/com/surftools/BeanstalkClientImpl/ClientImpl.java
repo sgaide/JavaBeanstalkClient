@@ -387,9 +387,4 @@ public class ClientImpl implements Client {
 	public String getClientVersion() {
 		return VERSION;
 	}
-	
-	public void close() throws IOException {
-		protocolHandler.get().close();
-	}
-
 }
